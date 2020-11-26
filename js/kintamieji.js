@@ -4,7 +4,7 @@ KINTAMIEJI:
 iniciavimo budai:
 -const (default) /kitaip vadinasi konstantos/ en.: variables
 -let
--var (pasistengti nenaudoti)
+-var (pasistengti nenaudoti) / pats pirmasis iniciavimo budas istoriskai/ jis yra siek tiek nesaugus
 
 kintamuju tipai:
 -skaicius (number)
@@ -12,8 +12,12 @@ kintamuju tipai:
 -logine reiksme (boolean)
 -sarasas/masyvas (array) (kažkokie tekstai, išvandinti per kablelį laužtiniuosi skliaustuose)
 
-
 const (iniciavimo būdas) vardas (kintamojo pavadinimas) = 'Vardenis'; (reikšmė)
+
+kintamuju tipas (atminties atzvilgiu):
+-primityvi reiksme
+-kompleksine reiksme
+
 */
 
 const vardas = 'Vardenis';
