@@ -12,8 +12,9 @@ Matematikos operatoriai:
 let pinigine = 0;
 console.log(pinigine);
 
-pinigine = pinigine + 100;
-console.log(pinigine);
+pinigine += 100;    // cia tas pats lyg butu: pinigine = pinigine + 100;
+console.log(pinigine);   // taip galima ir su + - * / matematiniais veiksmais
+
 
 
 /* 
@@ -21,10 +22,21 @@ console.log(pinigine);
 -- sumazinti vienu vienetu
 */
 
-let i = 0;
+let i = 0;  // i simbolis dazniausiai sutinkamas programavimo kalboje
 console.log(i);
 
 i = i + 1;
 i += 1;
-i++; 
+i++;
 console.log(i);
+
+i = i - 1;
+i -= 1;
+i--;
+console.log(i);
+
+
+let temperatura = -8;
+
+console.log(`Lauke dabar yra ${temperatura++} laipsniu.`); // jei ++ panaudojamas dešinėje kintamojo pusėje, tuomet ji pirmiausia atspausdina savo dabartinę būseną, o tik su sekančiu spausdinimu ji atspausdina padidintą per +1. O jei ++ dėtume kintamojo priekyje, tuomet jis iš kart reikšmę padidina ir tada atspausdina.
+console.log(`Lauke dabar yra ${temperatura} laipsniu.`);

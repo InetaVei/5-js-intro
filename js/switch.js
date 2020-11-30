@@ -1,3 +1,7 @@
+/* Swich'as panasu kaip if'as tik jis lygina: tik lygu/nelygu. (Tuo metu if gali palyginti ir dar daugiau/maziau)*/ 
+
+/* Console visada spausdina atsakyma iki kol pasiekia break */
+
 const darzove = 'morka';
 
 switch(darzove) {
@@ -18,7 +22,7 @@ switch(darzove) {
     break;
 }
 
-/* KADA SWICHE NEREIKIA KAS KIEKVIENU CASE NAUDOTI BREAK.
+/* KADA SWICH'e NEREIKIA KAS KIEKVIENU CASE NAUDOTI BREAK.
 Kai uzdavinys yra apie darbo procesa ir galimybe ji perrimti kazkuriame proceso zingsnyje */
 
 /* PROCESAS: rytinio gerimo gamyba.
