@@ -1,13 +1,13 @@
 // Matimatinės operacijos
 
-const skaicius1 = 5;
-const skaicius2 = 8;
+const skaicius11 = 5;
+const skaicius22 = 8;
 const suma = skaicius1 + skaicius2;
 
-console.log(skaicius1, '+', skaicius2, '=', suma);
+console.log(skaicius11, '+', skaicius22, '=', suma);
 
-console.log(skaicius1);
-console.log(skaicius2);
+console.log(skaicius11);
+console.log(skaicius222;
 console.log(suma);
 
  /* PVM apskaiciavimo pvz */
