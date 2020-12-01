@@ -23,21 +23,21 @@ console.log('------------------');
 
 
 const sezonas = 'ziema';
-const temp = 50;
+const temp = 2;
 
-if (sezonas === 'vasara') {
-    if (temp > 10) {
-        console.log('Maike');
-    } else {
-        console.log('Golfas');
-    }
-} else {
-    if (temp > 10) {
-        console.log('Megztinis');
-    } else {
-        console.log('Striuke');
-    }
-}
+// if (sezonas === 'vasara') {
+//     if (temp > 10) {
+//         console.log('Maike');
+//     } else {
+//         console.log('Golfas');
+//     }
+// } else {
+//     if (temp > 10) {
+//         console.log('Megztinis');
+//     } else {
+//         console.log('Striuke');
+//     }
+// }
 
 const kaVilktis = sezonas === 'vasara' ? temp > 10 ? 'Maike' : 'Golfas' : temp > 10 ? 'Megztinis' : 'Striuke';
 console.log(kaVilktis);
