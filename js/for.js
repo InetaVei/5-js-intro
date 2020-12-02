@@ -1,36 +1,36 @@
 /* Ciklas - analogiškai pasikartojančių operacijų sąrašas*/
 
-const pajamos = [100, 200, 300, 100, 100, 0, 100];
-let menuo = 0;
-let pinigine = 0;
+// const pajamos = [100, 200, 300, 100, 100, 0, 100];
+// let menuo = 0; // cia nurodo is arrejaus pirmaji menesi (programuotoju kalba)
+// let pinigine = 0; // sis letas yra pradinis taskas, pvz banko saskaita, kai ja atsidarai is pradziu buna O;
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
-pinigine += pajamos[menuo++];
-console.log(pinigine);
+// pinigine += pajamos[menuo++];
+// console.log(pinigine);
 
 
-console.log('-----------------');
+// console.log('-----------------');
 
-for (let i = 0; i >= -5; i--) {
-    console.log('Siuo metu i yra', i);
-}
+// for (let i = 0; i >= -5; i--) {
+//     console.log('Siuo metu i yra', i);
+// }
 
 /*
 i=0;  0 >= -5 -> log
@@ -50,7 +50,7 @@ Suskaiciuoti pazymiu vidurki.
 */
 
 const marks = [10, 2, 8, 4, 6, 1, 7, 9];
-
+console.log(marks);
 let sum = 0;
 const count = marks.length;
 
@@ -68,11 +68,11 @@ console.log(`Pazymiu vidurkis yra ${average}.`);
 
 console.log('-----------------');
 
-const txt = 'abcdef';
-const firstLetter = txt[0];
+// const txt = 'abcdef';
+// const firstLetter = txt[0];
 
-console.log(firstLetter);
-console.log(txt[1]);
-console.log(txt[2]);
-console.log(txt[3]);
-console.log(txt[4]);
+// console.log(firstLetter);
+// console.log(txt[1]);
+// console.log(txt[2]);
+// console.log(txt[3]);
+// console.log(txt[4]);
