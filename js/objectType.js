@@ -7,12 +7,40 @@ const zodziai = ['Labas', 'rytas'];   // object (array)
 
 console.log(skaiciu, typeof skaiciu);
 
+
+
+console.log('------------');
+
+
+
+const zmogus = [
+
 console.log(zmogus);
 console.log(zmogus['vardas']);
+console.log(zmogus['gimimoMetai']);
+console.log(zmogus['turiKate']);
+
+console.log(zmogus.pavarde);
+console.log(zmogus.turiSuni);
+console.log(zmogus.amzius);
+console.log(zmogus.gimimoMetai);
+
+]
+
+// zmogui priskiriame auto
+
+zmogus.automobilis = auto;
+
+
+
+
 
 
 
 console.log('--------------');
+
+
+
 
 const auto = {
     marke: 'tesla',
